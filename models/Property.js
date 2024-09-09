@@ -1,7 +1,6 @@
 const mongoose = require('mongoose');
 const User = require('./User');
 
-
 const propertySchema = new mongoose.Schema({
     description: {
         type: String,
